@@ -70,15 +70,15 @@
     * #0004:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 10`
-        * bytes: `6a 61 76 61 2f 6c 61 6e 67 2f 4f 62 6a 65 63 74`
+        * bytes: `6a 61 76 61 2f 6c 61 6e 67 2f 4f 62 6a 65 63 74` (java/lang/Object)
     * #0005:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 06`
-        * bytes: `3c 69 6e 69 74 3e`
+        * bytes: `3c 69 6e 69 74 3e` (<init>)
     * #0006:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 03`
-        * bytes: `28 29 56`
+        * bytes: `28 29 56` (()V)
     * #0007:
         * tag: `09` (CONSTANT_Fieldref)
         * class_index: `00 08`
@@ -93,22 +93,22 @@
     * #000A:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 10`
-        * bytes: `6a 61 76 61 2f 6c 61 6e 67 2f 53 79 73 74 65 6d`
+        * bytes: `6a 61 76 61 2f 6c 61 6e 67 2f 53 79 73 74 65 6d` (java/lang/System)
     * #000B:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 03`
-        * bytes: `6f 75 74`
+        * bytes: `6f 75 74` (out)
     * #000C:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 15`
-        * bytes: `4c 6a 61 76 61 2f 69 6f 2f 50 72 69 6e 74 53 74 72 65 61 6d 3b`
+        * bytes: `4c 6a 61 76 61 2f 69 6f 2f 50 72 69 6e 74 53 74 72 65 61 6d 3b` (Ljava/io/PrintStream;)
     * #000D:
         * tag: `08` (CONSTANT_String)
         * string_index: `00 0e`
     * #000E:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 15`
-        * bytes: `e9 a0 91 e5 bc b5 e3 82 8a e3 81 be e3 81 99 ed a0 bd ed b9 82 `
+        * bytes: `e9 a0 91 e5 bc b5 e3 82 8a e3 81 be e3 81 99 ed a0 bd ed b9 82` (頑張ります🙂)
     * #000F:
         * tag: `0a` (CONSTANT_NameAndType)
         * class_index: `00 10`
@@ -123,77 +123,77 @@
     * #0012:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 13`
-        * bytes: `6a 61 76 61 2f 69 6f 2f 50 72 69 6e 74 53 74 72 65 61 6d`
+        * bytes: `6a 61 76 61 2f 69 6f 2f 50 72 69 6e 74 53 74 72 65 61 6d` (java/io/PrintStream)
     * #0013:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 07`
-        * bytes: `70 72 69 6e 74 6c 6e`
+        * bytes: `70 72 69 6e 74 6c 6e` (println)
     * #0014:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 15`
-        * bytes: `28 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 29 56`
+        * bytes: `28 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 29 56` ((Ljava/lang/String;)V)
     * #0015:
         * tag: `07` (CONSTANT_Class)
         * name_index: `00 16`
     * #0016:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 04`
-        * bytes: `4d 61 69 6e`
+        * bytes: `4d 61 69 6e` (Main)
     * #0017:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 07`
-        * bytes: `54 57 49 54 54 45 52`
+        * bytes: `54 57 49 54 54 45 52` (TWITTER)
     * #0018:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 12`
-        * bytes: `4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b`
+        * bytes: `4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b` (Ljava/lang/String;)
     * #0019:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 0d`
-        * bytes: `43 6f 6e 73 74 61 6e 74 56 61 6c 75 65`
+        * bytes: `43 6f 6e 73 74 61 6e 74 56 61 6c 75 65` (ConstantValue)
     * #001A:
         * tag: `08` (CONSTANT_String)
         * string_index: `00 1b`
     * #001B:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 0d`
-        * bytes: `40 59 75 6a 69 53 6f 66 74 77 61 72 65`
+        * bytes: `40 59 75 6a 69 53 6f 66 74 77 61 72 65` (@YujiSoftware)
     * #001C:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 03`
-        * bytes: `41 47 45`
+        * bytes: `41 47 45` (AGE)
     * #001D:
         * tag: `01` (CONSTANT_Utf8)
         * length: `00 01`
-        * bytes: `4a`
+        * bytes: `4a` (J)
     * #001E:
         * tag: `05` (CONSTANT_Long)
         * high_bytes: `00 00 00 00`
         * low_bytes: `00 00 00 26`
-    * #001F:
-        * tag: `01` (CONSTANT_Utf8)
-        * length: `00 04`
-        * bytes: `43 6f 64 65`
     * #0020:
         * tag: `01` (CONSTANT_Utf8)
-        * length: `00 0f`
-        * bytes: `4c 69 6e 65 4e 75 6d 62 65 72 54 61 62 6c 65`
+        * length: `00 04`
+        * bytes: `43 6f 64 65` (Code)
     * #0021:
         * tag: `01` (CONSTANT_Utf8)
-        * length: `00 04`
-        * bytes: `6d 61 69 6e`
+        * length: `00 0f`
+        * bytes: `4c 69 6e 65 4e 75 6d 62 65 72 54 61 62 6c 65` (LineNumberTable)
     * #0022:
         * tag: `01` (CONSTANT_Utf8)
-        * length: `00 16`
-        * bytes: `28 5b 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 29 56`
+        * length: `00 04`
+        * bytes: `6d 61 69 6e` (main)
     * #0023:
         * tag: `01` (CONSTANT_Utf8)
-        * length: `00 0a`
-        * bytes: `53 6f 75 72 63 65 46 69 6c 65`
+        * length: `00 16`
+        * bytes: `28 5b 4c 6a 61 76 61 2f 6c 61 6e 67 2f 53 74 72 69 6e 67 3b 29 56` (([Ljava/lang/String;)V)
     * #0024:
         * tag: `01` (CONSTANT_Utf8)
+        * length: `00 0a`
+        * bytes: `53 6f 75 72 63 65 46 69 6c 65` (SourceFile)
+    * #0025:
+        * tag: `01` (CONSTANT_Utf8)
         * length: `00 09`
-        * bytes: `4d 61 69 6e 2e 6a 61 76 61`
+        * bytes: `4d 61 69 6e 2e 6a 61 76 61` (Main.java)
 * access_flags: `00 21`
 * this_class: `00 15`
 * super_class: `00 02`
