@@ -198,16 +198,15 @@
 * this_class: `00 15`
 * super_class: `00 02`
 * interfaces_count: `00 00`
-* interfaces
-* fields_count
-: `00 02`
-* fields
+* interfaces:
+* fields_count: `00 02`
+* fields:
     * #0001:
         * access_flags: `00 19`
         * name_index: `00 17`
         * descriptor_index: `00 18`
         * attributes_count: `00 01`
-        * attributes
+        * attributes:
             * #0001:
                 * attribute_name_index: `00 19` (ConstantValue)
                 * attribute_length: `00 00 00 02`
@@ -217,26 +216,26 @@
         * name_index: `00 1c`
         * descriptor_index: `00 1d`
         * attributes_count: `00 01`
-        * attributes
+        * attributes:
             * #0001:
                 * attribute_name_index: `00 19` (ConstantValue)
                 * attribute_length: `00 00 00 02`
                 * constantvalue_index: `00 1e`
 * methods_count: `00 02`
-* methods
+* methods:
     * #0001:
         * access_flags: `00 01`
         * name_index: `00 05`
         * descriptor_index: `00 06`
         * attributes_count: `00 01`
-        * attributes
+        * attributes:
             * #0001:
                 * attribute_name_index: `00 20` (Code)
                 * attribute_length: `00 00 00 1d`
                 * max_stack: `00 01`
                 * max_locals: `00 01`
                 * code_length: `00 00 00 05`
-                * code
+                * code:
                     * #00000000:
                         * instruction: `2a` (aload_0)
                     * #00000001:
@@ -246,15 +245,15 @@
                     * #00000004:
                         * instruction: `b1` (return)
                 * exception_table_length: `00 00`
-                * exception_table
+                * exception_table:
                 * attributes_count: `00 01`
-                * attributes
+                * attributes:
                     * #0001:
                         * attribute_name_index: `00 21` (LineNumberTable)
                         * attribute_length: `00 00 00 06`
                         * line_number_table_length: `00 01`
-                        * line_number_table
-                            * #0001
+                        * line_number_table:
+                            * #0001:
                                 * start_pc: `00 00`
                                 * line_number: `00 01`
     * #0002:
@@ -262,14 +261,14 @@
         * name_index: `00 22`
         * descriptor_index: `00 23`
         * attributes_count: `00 01`
-        * attributes
+        * attributes:
             * #0001:
                 * attribute_name_index: `00 20` (Code)
                 * attribute_length: `00 00 00 25`
                 * max_stack: `00 02`
                 * max_locals: `00 01`
                 * code_length: `00 00 00 09`
-                * code
+                * code:
                     * #00000000:
                         * instruction: `b2` (getstatic)
                         * indexbyte1: `00`
@@ -284,22 +283,22 @@
                     * #00000008:
                         * instruction: `b1` (return)
                 * exception_table_length: `00 00`
-                * exception_table
+                * exception_table:
                 * attributes_count: `00 01`
-                * attributes
+                * attributes:
                     * #0001:
                         * attribute_name_index: `00 21` (LineNumberTable)
                         * attribute_length: `00 00 00 0a`
                         * line_number_table_length: `00 02`
-                        * line_number_table
-                            * #0001
+                        * line_number_table:
+                            * #0001:
                                 * start_pc: `00 00`
                                 * line_number: `00 06`
-                            * #0002
+                            * #0002:
                                 * start_pc: `00 08`
                                 * line_number: `00 07`
 * attributes_count: `00 01`
-* attributes
+* attributes:
     * #0001:
         * attribute_name_index: `00 24` (SourceFile)
         * attribute_length: `00 00 00 02`
