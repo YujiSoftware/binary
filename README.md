@@ -1,7 +1,7 @@
 # バイナリビューアを使ってクラスファイルを読んでみよう！
 
 * セッション資料
-    * 
+    * [バイナリビューアを使ってクラスファイルを読んでみよう #jjug_ccc](https://speakerdeck.com/yujisoftware/bainaribiyuawoshi-tutekurasuhuairuwodu-ndemiyou-number-jjug-ccc)
 * ソースコード
     * [Main.java](./Main.java)
 * クラスファイル
